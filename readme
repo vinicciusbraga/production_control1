@@ -1,0 +1,25 @@
+# 🏗️ Automated Quality Control & Concrete Production Dashboard
+
+> Pipeline de dados end-to-end e painel analítico para rastreabilidade de elementos de concreto, controle de volume de concreto e gestão de não-conformidades (defeitos).
+
+---
+
+## 📋 Sobre o Projeto
+
+Este repositório contém a arquitetura completa de engenharia de dados e visualização desenvolvida para automatizar e otimizar o controle de qualidade fabril. O sistema cobre desde a captação automatizada de dados operacionais até a modelagem analítica e entrega de indicadores em tempo real.
+
+---
+
+## ⚙️ Arquitetura e Fluxo de Dados
+
+```text
+[ Input Operacional (Python Prompt) ]
+                 │
+                 ▼
+    [ Processamento & PySpark ]
+                 │
+                 ▼
+    [ Modelagem Star Schema (SQL) ]
+                 │
+                 ▼
+    [ Dashboard Interativo (Apache Superset) ]
