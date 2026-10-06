@@ -1,0 +1,18 @@
+database_name: Protokoll HBV Ixinbound
+sqlalchemy_uri: gsheets://
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+  engine_params:
+    catalog:
+      db_hbv: https://docs.google.com/spreadsheets/d/1Tni5spTiD_AgGu9B7IohWIRLUF-UE5i71GCV1qPUHSg/edit?gid=1666191630#gid=1666191630
+impersonate_user: true
+configuration_method: dynamic_form
+uuid: 7e260f75-5a7d-4f63-b1cb-2a04a55f8261
+version: 1.0.0
